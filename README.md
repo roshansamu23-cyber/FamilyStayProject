@@ -71,7 +71,7 @@ VITE_APP_URL=http://localhost:5173
 npm run dev
 ```
 
-6. Open https://holy-family-home-stay.vercel.app/
+6. Open [http://localhost:5173](http://localhost:5173)
 
 ## Deployment
 
@@ -95,6 +95,11 @@ See `supabase/migrations/001_initial_schema.sql` for complete schema.
 
 Customizable email templates in `src/utils/emailTemplates.js`.
 
+## Admin Credentials
+
+Default admin login (configured in migration):
+- Email: `admin@holyfamilystay.com`
+- Password: `Admin@123` (CHANGE IN PRODUCTION)
 
 ## Contributing
 
